@@ -23,7 +23,7 @@ Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dado
    ```bash
    docker run --name meu-postgres -e POSTGRES_USER=meu_usuario -e POSTGRES_PASSWORD=minha_senha -e POSTGRES_DB=meu_banco -p 5432:5432 -d postgres
    ```
-1.2 **Exemplo Banco de Dados Postgresql**
+ 1.2 **Exemplo Banco de Dados Postgresql**
    ```bash
    docker run --name meu-postgres -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=dcoker_pwd -e POSTGRES_DB=curso -p 5432:5432 -d postgres
    ```
